@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculation.css">
+    <link rel="stylesheet" href="calcmeta.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="ho">
+            <label>Calc</label>
+            <button class="m"> login</button>
+            <a href="" class="o">Home</a>
+            <a href="" class="o">About</a>
+            <a href="" class="o">Contact</a>
+            <a href="" class="o">Survice</a>
+
+        </div>
+
+    </div>
+
+    <div class="navbar">
+
+
+
+        <li><a href="" class="home"><i class="fa-solid fa-house"></i> Home </a></li>
+
+        <li><a href="file:///F:/Codes/movie%C2%A0/Contact.html" class="contact"> <i class="fa-solid fa-phone"></i>
+                Contact</a></li>
+
+        <li><a href="" class="survice"><i class="fa-solid fa-user"></i> Survice</a></li>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="search">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button onclick="searchByH1()"> <i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+
+
+
+    <div class="section">
+        <div class="left">
+            <hr class="hr">
+            <hr class="hr1">
+            <div class="alls">
+                <h1 id="title">Fahrenheit</h1>
+                <p>Please enter calcius to change into Foregin hight</p>
+                <div class="in">
+                    <input type="text" id="forenhi" placeholder="Major...">
+                    <button onclick="foren()">Submit</button>
+                    <h3 id="result">Result... </h3>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="section">
+        <div class="right">
+            <hr class="hr">
+
+            <hr class="hr1">
+            <div class="alls">
+                <h1>Calcius</h1>
+                <p>Please enter Foregin hight to change into Calcius</p>
+                <div class="in">
+                    <input type="text" id="calcius" placeholder="Major...">
+                    <button onclick="calcius()">Submit</button>
+                    <h3 id="resul">Result... </h3>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="section">
+        <div class="left">
+            <hr class="hr">
+
+            <hr class="hr1">
+            <div class="alls">
+                <h1>Kelvin</h1>
+                <p>Please enter Calcius to change into kelvin</p>
+                <div class="in">
+                    <input type="text" id="kelvin" placeholder="Major...">
+                    <button onclick="kelvin()">Submit</button>
+                    <h3 id="resu">Result...</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="right">
+            <hr class="hr">
+
+            <hr class="hr1">
+            <div class="alls">
+                <h1>Calcius</h1>
+                <p>Please enter Kelvin to change into Calcius</p>
+                <div class="in">
+                    <input type="text" id="kelincal" placeholder="Major...">
+                    <button onclick="kelincal()">Submit</button>
+                    <h3 id="res">Result...</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="left">
+            <hr class="hr">
+
+            <hr class="hr1">
+            <div class="alls">
+                <h1 id="title">Fahrenheit</h1>
+                <p>Please enter Kelvin to change into Foregin hight</p>
+                <div class="in">
+                    <input type="text" id="kalinfor" placeholder="Major...">
+                    <button onclick="kainfo()">Submit</button>
+                    <h3 id="re">Result...</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="right">
+            <hr class="hr">
+
+            <hr class="hr1">
+            <div class="area">
+
+                <h1>Area of Triangle</h1>
+                <p>Please enter Base and Height value</p>
+                <input type="text" id="base" placeholder="Base...">
+                <input type="text" id="height" placeholder="Height...">
+                <button onclick="area()">Submit</button>
+                <h3 id="r">Result...</h3>
+
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="left">
+            <hr class="hr">
+
+            <hr class="hr1">
+            <div class="area">
+
+                <h1>Square of a plus b</h1>
+                <p>Please enter value of a and b </p>
+                <input type="text" id="a" placeholder="A...">
+                <input type="text" id="b" placeholder="B...">
+                <button onclick="ab2()">Submit</button>
+                <h3 id="formula">Result...</h3>
+
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="right">
+            <hr class="hr">
+
+            <hr class="hr1">
+            <div class="area">
+
+                <h1>Square of a minus b</h1>
+                <p>Please enter value of a and b </p>
+                <input type="text" id="asub" placeholder="A...">
+                <input type="text" id="bsub" placeholder="B...">
+                <button onclick="asubb2()">Submit</button>
+                <h3 id="formul">Result...</h3>
+
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="left">
+            <hr class="hr">
+
+            <hr class="hr1">
+            <div class="area">
+
+                <h1>a squared plus b squared</h1>
+                <p>Please enter value of a and b </p>
+                <input type="text" id="a2" placeholder="A...">
+                <input type="text" id="b2" placeholder="B...">
+                <button onclick="a2sumb2()">Submit</button>
+                <h3 id="formu">Result...</h3>
+
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="right">
+            <hr class="hr">
+
+            <hr class="hr1">
+            <div class="area">
+
+                <h1>a squared minus b squared</h1>
+                <p>Please enter value of a and b </p>
+                <input type="text" id="a2sub2" placeholder="A...">
+                <input type="text" id="b2sub2" placeholder="B...">
+                <button onclick="a2subb2()">Submit</button>
+                <h3 id="form">Result...</h3>
+
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="left">
+            <hr class="hr">
+
+            <hr class="hr1">
+            <div class="area">
+
+                <h1>Cube of a plus b</h1>
+                <p>Please enter value of a and b </p>
+                <input type="text" id="a3sum" placeholder="A...">
+                <input type="text" id="b3sum" placeholder="B...">
+                <button onclick="a3sumb3()">Submit</button>
+                <h3 id="for">Result...</h3>
+
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="right">
+            <hr class="hr">
+
+            <hr class="hr1">
+            <div class="area">
+
+                <h1>Cube of a minus b</h1>
+                <p>Please enter value of a and b </p>
+                <input type="text" id="a3sub" placeholder="A...">
+                <input type="text" id="b3sub" placeholder="B...">
+                <button onclick="a3subb3()">Submit</button>
+                <h3 id="fo">Result...</h3>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="section">
+        <div class="left">
+            <hr class="hr">
+
+            <hr class="hr1">
+            <div class="area">
+
+                <h1>a cubed plus b cubed</h1>
+                <p>Please enter value of a and b </p>
+                <input type="text" id="a3m" placeholder="A...">
+                <input type="text" id="b3m" placeholder="B...">
+                <button onclick="a3mb3()">Submit</button>
+                <h3 id="f">Result...</h3>
+
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="right">
+            <hr class="hr">
+
+            <hr class="hr1">
+            <div class="area">
+
+                <h1>a cubed minus b cubed</h1>
+                <p>Please enter value of a and b </p>
+                <input type="text" id="a3b" placeholder="A...">
+                <input type="text" id="b3b" placeholder="B...">
+                <button onclick="a3bb3()">Submit</button>
+                <h3 id="fa">Result...</h3>
+
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="left">
+            <hr class="hr">
+
+            <hr class="hr1">
+            <div class="area">
+
+                <h1>The square of a plus b minus the square of a plus b
+                </h1>
+                <p>Please enter value of a and b </p>
+                <input type="text" id="a2h" placeholder="A...">
+                <input type="text" id="b2h" placeholder="B...">
+                <button onclick="a2b2h()">Submit</button>
+                <h3 id="fh">Result...</h3>
+
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="right">
+            <hr class="hr">
+
+            <hr class="hr1">
+            <div class="area">
+
+                <h1>a to the power of x multiplied by a to the power of y</h1>
+                <p>Please enter value of a and b </p>
+                <input type="text" id="x" placeholder="X...">
+                <input type="text" id="y" placeholder="Y...">
+                <input type="text" id="no" placeholder="A...">
+
+                <button onclick="axy()">Submit</button>
+                <h3 id="resultq">Result...</h3>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="section">
+        <div class="left">
+            <hr class="hr">
+
+            <hr class="hr1">
+            <div class="area">
+
+                <h1>The square of a plus b minus the square of a plus b</h1>
+                <p>Please enter value of a and b </p>
+                <input type="text" id="a2h" placeholder="A...">
+                <input type="text" id="b2h" placeholder="B...">
+                <button onclick="a2b2h()">Submit</button>
+                <h3 id="fh">Result...</h3>
+
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="right">
+            <hr class="hr">
+
+            <hr class="hr1">
+            <div class="area">
+
+                <h1>a to the power of x divided by a to the power of y</h1>
+                <p>Please enter value of a and b </p>
+                <input type="text" id="xp" placeholder="X...">
+                <input type="text" id="yp" placeholder="Y...">
+                <input type="text" id="ap" placeholder="A...">
+
+                <button onclick="adeva()">Submit</button>
+                <h3 id="fh">Result...</h3>
+
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="left">
+            <hr class="hr">
+
+            <hr class="hr1">
+            <div class="area">
+
+                <h1>The square of the product of a and b</h1>
+                <p>Please enter value of a and b </p>
+                <input type="text" id="a2/" placeholder="A...">
+                <input type="text" id="b2/" placeholder="B...">
+                <input type="text" id="x2/" placeholder="x...">
+                <button onclick="ab2()">Submit</button>
+                <h3 id="resultw">Result...</h3>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="calculation.js"></script>
+    </div>
+
+</html>

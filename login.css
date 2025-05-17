@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(file:///F:/Photo/wp9764012-login-page-wallpapers.jpg);
+}
+.form{
+   display: grid;
+   margin-top: 3.9in;
+    margin-left: 5in;
+    margin-right: 5in;
+    box-shadow: 10px 10px 20px;
+    background-color: transparent;
+}
+#u{
+ padding: 10px;
+ margin-left: 150px;
+ margin-right: 150px;
+ margin-top: 10px;
+ margin-bottom: 20px;
+ border-radius: 50px;
+ outline: none;
+ border: none;
+ font-size: 15px;
+}
+#p{
+ padding: 10px;
+ margin-left: 150px;
+ margin-right: 150px;
+ margin-bottom: 20px;
+ border-radius: 50px;
+ outline: none;
+ border: none;
+ font-size: 15px;
+}
+#s{
+padding: 10px;
+ margin-left: 250px;
+ margin-right: 250px;
+ border-radius: 50px;
+ border: none;
+ font-size: 20px;
+ margin-bottom: 10px;
+}
+.form p {
+    padding-left: 20px;
+    font-size: 20px;
+}
+.form p a{
+    color: black;
+}
+.form h2{
+    margin-left: 20px;
+}

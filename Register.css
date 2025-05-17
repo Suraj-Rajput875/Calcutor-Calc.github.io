@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(file:///F:/Photo/wp9764012-login-page-wallpapers.jpg);
+}
+.form{
+    display: grid;
+background-color: transparent;
+margin-top: 3in;
+margin-left: 5in;
+margin-right: 5in;
+box-shadow: 10px 10px 20px;
+}
+#u{
+    padding: 10px;
+    margin-left: 1.2in;
+    margin-right: 1.2in;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+#s{
+    padding: 10px;
+    margin-left: 2in;
+    margin-right: 2in;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+#p{
+    padding: 10px;
+    margin-left: 1.2in;
+    margin-right: 1.2in;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+#e{
+    padding: 10px;
+    margin-left: 1.2in;
+    margin-right: 1.2in;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+#g{
+    padding: 10px;
+    margin-left: 1.2in;
+    margin-right: 1.2in;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+.form h2{
+    margin-left: 20px;
+    color: rgba(0, 0, 255, 0.479);
+}
+.form p {
+    margin-left: 20px;
+    font-size: 20px;
+}
+.form p a{
+    color: black;
+}

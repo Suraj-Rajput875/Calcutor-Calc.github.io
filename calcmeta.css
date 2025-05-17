@@ -1,0 +1,182 @@
+@media (max-width: 1440px) {
+    
+    .search {
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 10%;
+      top: 90px;
+        width: 3in;
+
+        padding: 10px;
+
+    }
+
+    .search input {
+        position: relative;
+        padding: 10px;
+        width: 3in;
+        height: 0px;
+        font-size: 20px;
+
+    }
+
+    .search button {
+        position: absolute;
+
+        bottom: 8.8px;
+        left: 2.8in;
+    }
+
+    .right {
+
+        margin-left: 0;
+        padding-top: 2in;
+
+
+    }
+
+    .alls p {
+        width: 3in;
+        height: 1.2in;
+        padding-left: 50px;
+    }
+
+    .alls h3 {
+        width: 3.5in;
+
+    }
+
+    .in input {
+        position: relative;
+
+
+        font-size: 20px;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        padding: 10px;
+        width: 2in;
+        background-color: transparent;
+
+
+    }
+
+    .in {
+        width: 3.5in;
+    }
+
+
+
+
+
+
+    .area h1 {
+        padding-left: 30px;
+        width: 3.5in;
+
+    }
+
+    .area p {
+
+        width: 3in;
+        height: 1in;
+
+    }
+
+    .area h3 {
+
+        height: 35px;
+        width: 3.2in;
+
+
+
+
+
+    }
+
+    .area input {
+        display: flex;
+    }
+
+    .right .hr .hr1 {
+        width: 4in;
+    }
+
+
+    .nav .ho a{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+.navbar{
+    position: relative;
+    display: inline-block;
+     border: 2px solid black;
+     top: 10px;
+     width: 3.9in;
+     height: 50px;
+     border-radius: 20px;
+     margin-bottom: 60px;
+}
+.navbar li{
+    position: relative;
+    display: inline;
+    
+
+}
+.navbar li a{
+    position: relative;
+     text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    top: 15px;
+    left: 20px;
+    padding: 10px;
+    
+}
+
+ 
+
+    
+      
+       
+
+        
+    
+
+}
+
+
+
+
+
+
+
+
+
+
