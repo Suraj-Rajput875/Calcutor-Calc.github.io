@@ -1,10 +1,13 @@
 @media (max-width: 1440px) {
-    
+    body {
+        background: linear-gradient(to right, #c029ce, #0a487a);
+    }
+
     .search {
         position: absolute;
         margin-top: 50px;
         margin-left: 10%;
-      top: 90px;
+        top: 90px;
         width: 3in;
 
         padding: 10px;
@@ -35,11 +38,7 @@
 
     }
 
-    .alls p {
-        width: 3in;
-        height: 1.2in;
-        padding-left: 50px;
-    }
+
 
     .alls h3 {
         width: 3.5in;
@@ -99,11 +98,11 @@
     }
 
     .right .hr .hr1 {
-        width: 4in;
+        width: 0in;
     }
 
 
-    .nav .ho a{
+    .nav .ho a {
         display: none;
     }
 
@@ -111,6 +110,35 @@
 
 
 
+    .navbar {
+        position: relative;
+        display: inline-block;
+        border: 2px solid black;
+        top: 10px;
+        width: 3.9in;
+        height: 50px;
+        border-radius: 20px;
+        margin-bottom: 0px;
+    }
+
+    .navbar li {
+        position: relative;
+        display: inline;
+
+
+    }
+
+    .navbar li a {
+        position: relative;
+        text-decoration: none;
+        list-style: none;
+        color: black;
+        font-size: 20px;
+        top: 15px;
+        left: 20px;
+        padding: 10px;
+
+    }
 
 
 
@@ -130,53 +158,269 @@
 
 
 
-   
-   
-.navbar{
-    position: relative;
-    display: inline-block;
-     border: 2px solid black;
-     top: 10px;
-     width: 3.9in;
-     height: 50px;
-     border-radius: 20px;
-     margin-bottom: 60px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .search {
+
+        border: 3px solid black;
+        background: transparent;
+
+
+    }
+
+    .alls h1 {
+        position: static;
+
+        border-radius: 0px;
+        left: 0px;
+        height: 0px;
+        width: 0in;
+        border: none;
+
+margin-top: 20px;
+        padding-left: 10px;
+    }
+
+    .in {
+        position: sticky;
+        background: antiquewhite;
+
+
+        width: 3in;
+        height: 0px;
+        border-radius: 0px;
+        border: none;
+        display: inline-flex;
+
+    }
+
+
+    .in input {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        font-size: 20px;
+        outline: none;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        width: 3in;
+        background-color: transparent;
+        height: 20px;
+
+
+    }
+
+    .in button {
+        position: relative;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        font-size: 20px;
+        left: 5px;
+        top: 9px;
+    }
+
+    .alls p {
+        border: none;
+
+        background: none;
+        font-size: 30px;
+        border-radius: 50px;
+        width: 3.5in;
+        height: 90px;
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+
+    .alls h3 {
+        border: 2px solid black;
+
+        background: transparent;
+        font-size: 30px;
+        border-radius: 10px;
+        width: 3.5in;
+        height: 40px;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 60px;
+    }
+
+
+    .right {
+
+        margin-left: 0%;
+        margin-top: 3in;
+        margin-bottom: 100px;
+
+    }
+
+    .left {
+        margin-top: 90px;
+        float: left;
+
+    }
+
+    .hr1 {
+
+        border: none;
+        height: 0px;
+        background-color: none;
+        transition: none;
+        display: none;
+    }
+
+    .hr1:hover {
+        background-color: none;
+        height: none;
+        display: none;
+    }
+
+    .hr {
+        display: none;
+        border: none;
+        height: 9px;
+        background: linear-gradient(90deg, #ff7f50, #6a5acd);
+    }
+
+    .alls input::placeholder {
+        color: black;
+    }
+
+
+    .area h1 {
+        background: transparent;
+        border-radius: 10px;
+        margin-right: 0px;
+        padding-left: 0px;
+        border: none;
+        width: 3.5in;
+        margin-top: 30px;
+    }
+
+    .area p {
+        border: none;
+        width: 3.5in;
+        height: 34px;
+        font-size: 30px;
+        border-radius: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        background: transparent;
+        margin-top: 20px;
+        margin-bottom: 50px;
+
+    }
+
+    .area h3 {
+        position: relative;
+        background: transparent;
+        height: 30px;
+        font-size: 30px;
+        border-radius: 10px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-top: 10px;
+        border: 2px solid black;
+
+
+
+    }
+
+
+    .area input {
+        padding: 10px;
+        width: 3in;
+        height: 20px;
+        font-size: 20px;
+        border-radius: 50px;
+        outline: none;
+        border: none;
+        border: 2px solid black;
+        background: transparent;
+        margin-top: 20px;
+
+    }
+
+    .area input::placeholder {
+        color: black;
+    }
+
+    .area button {
+        position: relative;
+        display: block;
+        top: 10px;
+        height: 40px;
+        width: 200px;
+        border: 2px solid black;
+        background: transparent;
+        border-radius: 50px;
+
+    }
+
+    .left {
+        float: left;
+        padding-top: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
-.navbar li{
-    position: relative;
-    display: inline;
-    
-
-}
-.navbar li a{
-    position: relative;
-     text-decoration: none;
-    list-style: none;
-    color: black;
-    font-size: 20px;
-    top: 15px;
-    left: 20px;
-    padding: 10px;
-    
-}
-
- 
-
-    
-      
-       
-
-        
-    
-
-}
-
-
-
-
-
-
-
-
-
-
