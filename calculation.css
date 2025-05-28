@@ -1,8 +1,5 @@
 body {
-    background-image: url(abstract-gradient-geometric-background-simple-shapes-with-trendy-gradients-vector.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+   background: linear-gradient(to right, #c029ce, #0a487a, #f00b51);
 
 }
 
